@@ -1,0 +1,36 @@
+# Build
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/*.cmake
+Makefile
+
+# Visual Studio / Windows
+*.sln
+*.vcxproj*
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.obj
+*.lib
+*.exe
+
+# MinGW / GCC
+*.o
+*.a
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+logs/*.dat
+logs/*.vmx
+logs/*.ps1
+logs/*.sh
+logs/*.xml
+logs/*.txt
+
+# Python artifacts
+__pycache__/
+*.pyc

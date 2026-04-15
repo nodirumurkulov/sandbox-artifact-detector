@@ -1,0 +1,54 @@
+{
+  "bios": {
+    "vendor": "VMware, Inc.",
+    "version": "INTEL  - 6040000",
+    "product": "VMW201.00V.24006586.B64.2406042154"
+  },
+  "mac": {
+    "address": "00:0C:29:23:50:25",
+    "vendor": "VMware"
+  },
+  "drivers": [
+    {"name": "bttflt", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "gencounter", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "storflt", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "vpci", "vendor": "Hyper-V", "loaded": 1}
+  ],
+  "registry": [
+    {"path": "SOFTWARE\\VMware, Inc.", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmtools", "description": "Registry VM artefact"}
+  ],
+  "filesystem": [
+    {"path": "C:\\Program Files\\VMware\\VMware Tools\\", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmhgfs.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmmouse.sys", "description": "Filesystem VM artefact"}
+  ],
+  "timing": {
+    "sleep_ms": 106,
+    "sleep_passed": true,
+    "rdtsc_delta": 231354126,
+    "rdtsc_passed": true,
+    "loop_ms": 2.45,
+    "loop_passed": true,
+    "loop": {
+      "samples": 50,
+      "median_ms": 2.452,
+      "p95_ms": 2.883,
+      "min_ms": 2.271,
+      "max_ms": 3.496,
+      "passed": true
+    }
+  },
+  "cpuid": {
+    "supported": true,
+    "arch": "x86_64",
+    "leaf_1_ecx": 2147103235,
+    "hypervisor_bit": 0,
+    "passed": true
+  },
+  "vmware_backdoor": {
+    "supported": true,
+    "detected": false,
+    "passed": true
+  }
+}

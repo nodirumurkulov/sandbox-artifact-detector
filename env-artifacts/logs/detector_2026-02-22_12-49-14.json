@@ -1,0 +1,76 @@
+{
+  "bios": {
+    "vendor": "VMware, Inc.",
+    "version": "INTEL  - 6040000",
+    "product": "VMW201.00V.24006586.B64.2406042154"
+  },
+  "mac": {
+    "address": "00:0C:29:23:50:25",
+    "vendor": "VMware"
+  },
+  "drivers": [
+    {"name": "vm3dmp", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp-debug", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp-stats", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp_loader", "vendor": "VMware", "loaded": 1}
+  ],
+  "registry": [
+    {"path": "SOFTWARE\\VMware, Inc.", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmtools", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmhgfs", "description": "Registry VM artefact"}
+  ],
+  "filesystem": [
+    {"path": "C:\\Program Files\\VMware\\VMware Tools\\", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmhgfs.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmmouse.sys", "description": "Filesystem VM artefact"}
+  ],
+  "timing": {
+    "sleep_ms": 115,
+    "sleep_passed": true,
+    "rdtsc_delta": 250661144,
+    "rdtsc_passed": true,
+    "loop_ms": 3.01,
+    "loop_passed": true,
+    "loop": {
+      "samples": 50,
+      "median_ms": 3.015,
+      "p95_ms": 4.193,
+      "min_ms": 2.570,
+      "max_ms": 4.491,
+      "passed": true
+    }
+  },
+  "cpuid": {
+    "supported": true,
+    "arch": "x86_64",
+    "leaf_1_ecx": 4294586883,
+    "hypervisor_bit": 1,
+    "passed": false
+  },
+  "vmware_backdoor": {
+    "supported": true,
+    "detected": false,
+    "passed": true
+  },
+  "debugger": {
+    "is_debugger_present": false,
+    "remote_debugger_present": false,
+    "peb_being_debugged": false,
+    "process_debug_port": {
+      "supported": true,
+      "detected": false,
+      "passed": true
+    },
+    "process_debug_flags": {
+      "supported": true,
+      "detected": false,
+      "passed": true
+    },
+    "process_debug_object": {
+      "supported": true,
+      "detected": false,
+      "passed": true
+    },
+    "passed": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "bios": {
+    "vendor": "VMware, Inc.",
+    "version": "INTEL  - 6040000",
+    "product": "VMW201.00V.24006586.B64.2406042154"
+  },
+  "mac": {
+    "address": "00:0C:29:C4:DD:6D",
+    "vendor": "VMware"
+  },
+  "drivers": [
+    {"name": "bttflt", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "gencounter", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "storflt", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "vm3dmp-debug", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp-stats", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp_loader", "vendor": "VMware", "loaded": 1},
+    {"name": "vpci", "vendor": "Hyper-V", "loaded": 1}
+  ],
+  "registry": [
+  ],
+  "filesystem": [
+    {"path": "C:\\Windows\\System32\\drivers\\vmhgfs.sys", "description": "Filesystem VM artefact"}
+  ],
+  "timing": {
+    "sleep_ms": 114,
+    "sleep_passed": true,
+    "rdtsc_delta": 254597894,
+    "rdtsc_passed": true,
+    "loop_ms": 17.00,
+    "loop_passed": false
+  }
+}

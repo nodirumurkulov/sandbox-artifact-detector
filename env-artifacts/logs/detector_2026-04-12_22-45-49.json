@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-12 22:45:49",
+    "build_config": "Debug",
+    "run_tag": "",
+    "verbose_enabled": false
+  },
+  "bios": {
+    "vendor": "VMware, Inc.",
+    "version": "VMW201.00V.24006586.B64.2406042154",
+    "product": "VMware20,1"
+  },
+  "mac": {
+    "address": "00:0C:29:97:AB:24",
+    "vendor": "VMware"
+  },
+  "drivers": [
+    {"name": "pvscsi", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp-debug", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp-stats", "vendor": "VMware", "loaded": 1},
+    {"name": "vm3dmp_loader", "vendor": "VMware", "loaded": 1},
+    {"name": "vmbus", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "VMBusHID", "vendor": "Hyper-V", "loaded": 1},
+    {"name": "vmci", "vendor": "VMware", "loaded": 1},
+    {"name": "vmhgfs", "vendor": "VMware", "loaded": 1},
+    {"name": "VMMemCtl", "vendor": "VMware", "loaded": 1},
+    {"name": "vmmouse", "vendor": "VMware", "loaded": 1},
+    {"name": "vmrawdsk", "vendor": "VMware", "loaded": 1},
+    {"name": "vmusbmouse", "vendor": "VMware", "loaded": 1},
+    {"name": "vsock", "vendor": "VMware", "loaded": 1}
+  ],
+  "registry": [
+    {"path": "SOFTWARE\\VMware, Inc.", "description": "Registry VM artefact"},
+    {"path": "SOFTWARE\\VMware, Inc.\\VMware Tools", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmtools", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmhgfs", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmci", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\VMMemCtl", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmvss", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\VGAuthService", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vm3dmp", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\pvscsi", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmbus", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmicguestinterface", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmicheartbeat", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmickvpexchange", "description": "Registry VM artefact"},
+    {"path": "SYSTEM\\CurrentControlSet\\Services\\vmicrdv", "description": "Registry VM artefact"}
+  ],
+  "filesystem": [
+    {"path": "C:\\Program Files\\VMware\\VMware Tools\\", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Program Files\\VMware\\VMware Tools\\VMwareHostOpen.exe", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmhgfs.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmmouse.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmci.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmmemctl.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vmrawdsk.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vm3dmp.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\vsock.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\drivers\\pvscsii.sys", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\vmGuestLib.dll", "description": "Filesystem VM artefact"},
+    {"path": "C:\\Windows\\System32\\pstorec.dll", "description": "Filesystem VM artefact"}
+  ],
+  "timing": {
+    "sleep_ms": 101,
+    "rdtsc_delta": 260365098,
+    "loop_ms": 2.51,
+    "loop": {
+      "samples": 50,
+      "median_ms": 2.513,
+      "p95_ms": 3.065,
+      "min_ms": 2.351,
+      "max_ms": 3.312,
+      "passed": true
+    }
+  },
+  "cpuid": {
+    "supported": true,
+    "arch": "x86_64",
+    "leaf_1_ecx": 4294586883,
+    "hypervisor_bit": 1
+  },
+  "vmware_backdoor": {
+    "supported": true,
+    "detected": false
+  },
+  "score": 14,
+  "threshold": 6,
+  "verdict": "LIKELY VIRTUALISED"
+}
