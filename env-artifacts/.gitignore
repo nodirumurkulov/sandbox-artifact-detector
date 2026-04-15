@@ -1,10 +1,11 @@
-# Build
+# Build output
 /build/
 /CMakeFiles/
 /CMakeCache.txt
+/cmake_install.cmake
+/compile_commands.json
 /*.cmake
 Makefile
-
 # Visual Studio / Windows
 *.sln
 *.vcxproj*
@@ -14,23 +15,33 @@ Makefile
 *.obj
 *.lib
 *.exe
-
-# MinGW / GCC
+*.ilk
+# MinGW / GCC / Clang
 *.o
 *.a
-
-# VSCode
+*.so
+*.dylib
+# VSCode / IDE
 .vscode/
-
-# Logs
-*.log
-logs/*.dat
-logs/*.vmx
-logs/*.ps1
-logs/*.sh
-logs/*.xml
-logs/*.txt
-
+.idea/
+# macOS
+.DS_Store
 # Python artifacts
 __pycache__/
 *.pyc
+# Generated runtime output
+/logs/
+/experiments/
+# Generated reports / patches if created elsewhere
+*.log
+*.html
+*.dat
+*.vmx
+*.ps1
+*.sh
+*.xml
+*.txt
+# Backup / temporary files
+*.bak
+*.tmp
+*~
