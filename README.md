@@ -1,4 +1,4 @@
-# Final Year Project
+# Anti-sandboxing malware
 
 A Windows-first defensive research tool for detecting virtualisation and sandbox artefacts that malware may use to identify analysis environments.
 This project was developed as a Final Year Project and focuses on measuring how visible a sandboxed or virtualised environment is, then supporting controlled hardening through reporting, scoring, and remediation features.
